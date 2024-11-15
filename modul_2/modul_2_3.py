@@ -15,5 +15,3 @@ while count < len(my_list):
         print('Список закончился')
     else:
         print(num)
-
-

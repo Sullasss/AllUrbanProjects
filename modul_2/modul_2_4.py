@@ -1,17 +1,15 @@
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 primes = []
 not_primes = []
-for num in numbers:
-    if num > 1:
-        for i in range(2, num):
-            if num % i == 0:
-                not_primes.append(i)
+for i in numbers:
+    if i > 1:
+        for j in range(2, i):
+            if i % j == 0:
+                not_primes.append(j)
                 break
         else:
-            primes.append(num)
+            primes.append(i)
     else:
-        not_primes.append(num)
-print('Простые числа')
-print(primes)
-print('Не простые числа')
-print(not_primes)
+        not_primes.append(i)
+print(f'Primes: {primes}')
+print(f'Not primes: {not_primes}')

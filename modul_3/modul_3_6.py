@@ -12,5 +12,4 @@ def get_multiplied_digits(number):  # 1
 
 num = input('Введите целое число: ')
 print(f'Произведение цифр числа {num} :', get_multiplied_digits(num))
-@Sullasss
-Comment
+

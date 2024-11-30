@@ -61,3 +61,5 @@ answer = tk.Label(window, text='Ответ:')
 answer.place(x=100, y=275)
 
 window.mainloop()
+
+#самостоятельно доработать программу

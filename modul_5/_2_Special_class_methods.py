@@ -20,8 +20,8 @@ class House:
         return f'Назвение: {self.name}, кол-во этажей: {self.number_of_the_floors}'
 
 
-h1 = House('ЖК Горский', 10)
-h2 = House('Домик в деревне', 20)
+h1 = House('ЖК Эльбрус', 10)
+h2 = House('ЖК Акация', 20)
 
 # __str__
 print(h1)

@@ -1,5 +1,3 @@
-
-
 class House:
     def __init__(self, name, number_of_the_floors):
         self.name = name
